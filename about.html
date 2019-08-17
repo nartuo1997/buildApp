@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet"  href="style.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class ="main-header">
+      <nav class = "nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="store.html">STORE</a></li>
           <li><a href="about.html">ABOUT ME</a></li>
         </ul>
       </nav>
-      <hr />
+      
+          <h1 class ="band-name band-name-large" ">Game Portfolio</h1>
     </header>
 
-    <h1>ABOUT ME</h1>
-
+    <section class="content-section container">
+    <h2 class="section-header">ABOUT ME</h2>
+      
     <p>
       Hi, I am a student at University of North Texas pursuing Computer Science
       degree.
@@ -37,6 +39,9 @@
       If you would like to contact me, feel free to send me an email at:
       <strong>khangtn50@gmail.com</strong>
     </p>
+    <img class ="about-me-image" src = "image/about.jpg" >
+  </section>
+
 
     <!--The footer section-->
 
@@ -51,25 +56,29 @@
     <br />
     <br />
 
-    <hr />
-    <footer>
-      <ul>
+  
+    <footer class ="main-footer" >
+      <div class ="container main-footer-container">
+          <h2 class = "band-name">Social Media</h2>
+      <ul class="nav footer-nav">
+        
         <li>
             <a href="https://facebook.com"target="_blank">
-                <img src="image/facebook.jpg" width="25" height="25" />
+                <img src="image/facebook.jpg" />
             </a>
         </li>
         <li>
             <a href="https://twitter.com"target="_blank">
-                <img src="image/twitter.jpg" width="25" height="25" />
+                <img src="image/twitter.jpg"  />
             </a>
         </li>
         <li>
             <a href="https://instagram.com"target="_blank">
-                <img src="image/instagram.jpg" width="25" height="25" />
+                <img src="image/instagram.jpg" />
             </a>
         </li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>
